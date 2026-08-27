@@ -1,0 +1,199 @@
+{
+  "flags": [
+    "VISUALPING{2dd5105a3fad0ef3}",
+    "VISUALPING{349a583fba34c301}",
+    "VISUALPING{5488187886a5755a}",
+    "VISUALPING{64d26185a2f94e34}",
+    "VISUALPING{73c8f3073fdc5f74}",
+    "VISUALPING{db7e533a9cef7f72}",
+    "VISUALPING{e1c2e40cf01c17cc}",
+    "VISUALPING{fb725e1f3d6728b1}"
+  ],
+  "count": 8,
+  "example_flag_seen_on_site": true,
+  "unique_pages_visited": 628,
+  "unique_urls_discovered": 3199,
+  "urls_directly_fetched": 3199,
+  "distinct_body_hashes": 2856,
+  "crawl_complete": true,
+  "crawl_complete_explanation": "All 8 passwords recovered. 6 were extracted automatically by the crawler; 1 (/static/img/whiteboard-scan.png) exists only as rendered pixels and was flagged by the text-image heuristic for human reading; 1 (/status/eu-region/) is served only to a German IP and was retrieved through a German VPN exit (62.141.35.237, Dusseldorf). The /report/?page=N series is an unbounded generator, sampled to MAX_PAGINATION_DEPTH and deep-scanned; see capped_pagination_bases.",
+  "section_visit_counts": {
+    "": 1,
+    "wiki": 63,
+    "docs": 71,
+    "notes": 66,
+    "static": 16,
+    "help": 39,
+    "blog": 65,
+    "products": 56,
+    "status": 1,
+    "report": 250
+  },
+  "capped_sections": [],
+  "capped_pagination_bases": [
+    "/report/"
+  ],
+  "images_that_look_like_text": {
+    "http://54.214.7.161/static/img/whiteboard-scan.png": "looks like text/ink on a light background (12.5% dark, 86.0% light, 722x85) \u2014 OPEN AND READ IT; a password drawn as pixels is invisible to every byte-level scan"
+  },
+  "bare_hex16_candidates": {
+    "http://54.214.7.161/static/img/office-plants.jpg": [
+      "622ee9dfa76d54a6"
+    ],
+    "http://54.214.7.161/static/img/field-visit.jpg": [
+      "5a6b01d97bfffdc3"
+    ],
+    "http://54.214.7.161/static/img/team-offsite.jpg": [
+      "e19cd3432599af6f"
+    ]
+  },
+  "hits_by_url": {
+    "http://54.214.7.161/": {
+      "flags": [
+        "VISUALPING{0000deadbeef0000}"
+      ],
+      "notes": [
+        "direct fetch body (literal bytes)",
+        "rendered innerText",
+        "rendered innerText, whitespace-stripped",
+        "response body (text/html) (literal bytes)",
+        "serialized DOM after JS (literal bytes)"
+      ]
+    },
+    "http://54.214.7.161/static/img/field-visit.jpg": {
+      "flags": [
+        "VISUALPING{db7e533a9cef7f72}"
+      ],
+      "notes": [
+        "direct fetch body, decoded via null-stripped",
+        "direct fetch body, decoded via null-stripped > url-decoded",
+        "direct fetch body, decoded via reversed > utf-16-be > reversed",
+        "direct fetch body, decoded via rot13 > utf-16-le > rot13",
+        "direct fetch body, decoded via url-decoded > null-stripped",
+        "direct fetch body, decoded via url-decoded > utf-16-le",
+        "direct fetch body, decoded via url-decoded > utf-16-le > null-stripped",
+        "direct fetch body, decoded via utf-16-le",
+        "direct fetch body, decoded via utf-16-le > null-stripped",
+        "response body (image/jpeg), decoded via null-stripped",
+        "response body (image/jpeg), decoded via null-stripped > url-decoded",
+        "response body (image/jpeg), decoded via reversed > utf-16-be > reversed",
+        "response body (image/jpeg), decoded via rot13 > utf-16-le > rot13",
+        "response body (image/jpeg), decoded via url-decoded > null-stripped",
+        "response body (image/jpeg), decoded via url-decoded > utf-16-le",
+        "response body (image/jpeg), decoded via url-decoded > utf-16-le > null-stripped",
+        "response body (image/jpeg), decoded via utf-16-le",
+        "response body (image/jpeg), decoded via utf-16-le > null-stripped"
+      ]
+    },
+    "http://54.214.7.161/static/js/theme-switcher.js": {
+      "flags": [
+        "VISUALPING{fb725e1f3d6728b1}"
+      ],
+      "notes": [
+        "direct fetch body, decoded via char-codes",
+        "response body (application/javascript), decoded via char-codes",
+        "serialized DOM after JS, decoded via char-codes"
+      ]
+    },
+    "http://54.214.7.161/static/js/analytics.js": {
+      "flags": [
+        "VISUALPING{349a583fba34c301}"
+      ],
+      "notes": [
+        "direct fetch body (literal bytes)",
+        "rendered innerText",
+        "rendered innerText, whitespace-stripped",
+        "response body (application/javascript) (literal bytes)",
+        "serialized DOM after JS (literal bytes)"
+      ]
+    },
+    "http://54.214.7.161/products/filter-gateway/": {
+      "flags": [
+        "VISUALPING{64d26185a2f94e34}"
+      ],
+      "notes": [
+        "HTTP response headers",
+        "HTTP response headers (direct fetch)",
+        "HTTP response headers (duplicate-preserving)"
+      ]
+    },
+    "http://54.214.7.161/notes/diff-socket-socket/?ref=related": {
+      "flags": [
+        "VISUALPING{2dd5105a3fad0ef3}"
+      ],
+      "notes": [
+        "direct fetch body (literal bytes)",
+        "response body (text/html) (literal bytes)",
+        "serialized DOM after JS (literal bytes)"
+      ]
+    },
+    "http://54.214.7.161/wiki/detect-embed/": {
+      "flags": [
+        "VISUALPING{73c8f3073fdc5f74}"
+      ],
+      "notes": [
+        "direct fetch body (literal bytes)",
+        "response body (text/html) (literal bytes)",
+        "serialized DOM after JS (literal bytes)"
+      ]
+    },
+    "http://54.214.7.161/products/filter-gateway": {
+      "flags": [
+        "VISUALPING{64d26185a2f94e34}"
+      ],
+      "notes": [
+        "HTTP response headers (direct fetch)"
+      ]
+    },
+    "http://54.214.7.161/products/filter-gateway/?utm_source=internal": {
+      "flags": [
+        "VISUALPING{64d26185a2f94e34}"
+      ],
+      "notes": [
+        "HTTP response headers (direct fetch)"
+      ]
+    }
+  },
+  "password_index": [
+    {
+      "password": "VISUALPING{2dd5105a3fad0ef3}",
+      "url": "/notes/diff-socket-socket/",
+      "mechanism": "HTML comment"
+    },
+    {
+      "password": "VISUALPING{349a583fba34c301}",
+      "url": "/static/js/analytics.js",
+      "mechanism": "JS string literal (ADMIN_PASSWORD)"
+    },
+    {
+      "password": "VISUALPING{73c8f3073fdc5f74}",
+      "url": "/wiki/detect-embed/",
+      "mechanism": "data-vp-archive attribute on <body>"
+    },
+    {
+      "password": "VISUALPING{fb725e1f3d6728b1}",
+      "url": "/static/js/theme-switcher.js",
+      "mechanism": "decimal char-code array -> String.fromCharCode"
+    },
+    {
+      "password": "VISUALPING{db7e533a9cef7f72}",
+      "url": "/static/img/field-visit.jpg",
+      "mechanism": "EXIF UserComment, UTF-16LE"
+    },
+    {
+      "password": "VISUALPING{e1c2e40cf01c17cc}",
+      "url": "/static/img/whiteboard-scan.png",
+      "mechanism": "rendered into the pixels as visible text"
+    },
+    {
+      "password": "VISUALPING{64d26185a2f94e34}",
+      "url": "/products/filter-gateway/",
+      "mechanism": "X-Provisioning-Note header (present pre-auth on the 401)"
+    },
+    {
+      "password": "VISUALPING{5488187886a5755a}",
+      "url": "/status/eu-region/",
+      "mechanism": "visible text, served only to a German IP"
+    }
+  ]
+}

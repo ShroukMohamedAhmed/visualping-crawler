@@ -1,0 +1,16 @@
+# Claude Code local settings — not part of the project
+.claude/
+
+# Crawl cache — several MB of response bodies and rendered artifacts.
+# Regenerate with `python run.py` or `python audit.py census`.
+.crawlcache/
+
+# Transient run state, not evidence
+progress.json
+eu-region.html
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

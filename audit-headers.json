@@ -1,0 +1,21 @@
+{
+  "custom_headers": {
+    "/products/filter-gateway/": {
+      "status": 401,
+      "headers": {
+        "X-Provisioning-Note": "VISUALPING{64d26185a2f94e34}"
+      },
+      "authenticated": false
+    },
+    "/products/filter-gateway/?utm_source=internal": {
+      "status": 401,
+      "headers": {
+        "X-Provisioning-Note": "VISUALPING{64d26185a2f94e34}"
+      },
+      "authenticated": false
+    }
+  },
+  "passwords": [
+    "VISUALPING{64d26185a2f94e34}"
+  ]
+}
